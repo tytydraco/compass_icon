@@ -20,21 +20,21 @@ class CompassIcon extends StatelessWidget {
   double _compassDirectionAngle(CompassDirection compassDirection) {
     switch (compassDirection) {
       case CompassDirection.north:
-        return pi/2;
+        return pi / 2;
       case CompassDirection.northEast:
-        return pi/4;
+        return pi / 4;
       case CompassDirection.east:
         return 0;
       case CompassDirection.southEast:
-        return -pi/4;
+        return -pi / 4;
       case CompassDirection.south:
-        return -pi/2;
+        return -pi / 2;
       case CompassDirection.southWest:
-        return -3*pi/4;
+        return -3 * pi / 4;
       case CompassDirection.west:
         return pi;
       case CompassDirection.northWest:
-        return 3*pi/4;
+        return 3 * pi / 4;
     }
   }
 

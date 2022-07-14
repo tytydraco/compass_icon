@@ -39,7 +39,6 @@ class MyHomePage extends StatelessWidget {
             compassDirection: CompassDirection.north,
             initialDirection: CompassDirection.north,
           ),
-        )
-    );
+        ));
   }
 }
