@@ -5,16 +5,23 @@ import 'package:flutter/cupertino.dart';
 
 /// Rotates the [icon] giving a [compassDirection] and an [initialDirection].
 class CompassIcon extends StatelessWidget {
-  final Icon icon;
-  final CompassDirection compassDirection;
-  final CompassDirection initialDirection;
-
+  /// Create a new [CompassIcon] given an [icon] from an [initialDirection], and
+  /// rotate it to the new [compassDirection].
   const CompassIcon({
-    Key? key,
+    super.key,
     required this.icon,
     required this.compassDirection,
     required this.initialDirection,
-  }) : super(key: key);
+  });
+
+  /// The icon to use.
+  final Icon icon;
+
+  /// The new direction to use.
+  final CompassDirection compassDirection;
+
+  /// The initial direction the [icon] was facing.
+  final CompassDirection initialDirection;
 
   /// Convert a [CompassDirection] into a direction in radians.
   double _compassDirectionAngle(CompassDirection compassDirection) {

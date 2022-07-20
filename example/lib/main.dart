@@ -27,18 +27,19 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: const Text('Compass Icon'),
-        ),
-        body: const Center(
-          child: CompassIcon(
-            icon: Icon(
-              Icons.arrow_circle_up,
-              size: 100,
-            ),
-            compassDirection: CompassDirection.north,
-            initialDirection: CompassDirection.north,
+      appBar: AppBar(
+        title: const Text('Compass Icon'),
+      ),
+      body: const Center(
+        child: CompassIcon(
+          icon: Icon(
+            Icons.arrow_circle_up,
+            size: 100,
           ),
-        ));
+          compassDirection: CompassDirection.southWest,
+          initialDirection: CompassDirection.north,
+        ),
+      ),
+    );
   }
 }
