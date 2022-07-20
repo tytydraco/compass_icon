@@ -1,6 +1,6 @@
 name: compass_icon
 description: A simple Flutter package to rotate an icon based on different compass directions.
-version: 1.0.1
+version: 1.0.2
 repository: https://www.github.com/tytydraco/compass_icon
 
 environment:
