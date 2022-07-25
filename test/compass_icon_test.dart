@@ -9,7 +9,7 @@ void main() {
       await widgetTester.pumpWidget(
         const MaterialApp(
           home: CompassIcon(
-            icon: Icon(Icons.arrow_circle_up),
+            Icon(Icons.arrow_circle_up),
             compassDirection: CompassDirection.north,
             initialDirection: CompassDirection.north,
           ),
@@ -23,7 +23,7 @@ void main() {
       await widgetTester.pumpWidget(
         const MaterialApp(
           home: CompassIcon(
-            icon: Icon(Icons.arrow_circle_up),
+            Icon(Icons.arrow_circle_up),
             compassDirection: CompassDirection.southWest,
             initialDirection: CompassDirection.north,
           ),

@@ -32,10 +32,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: const Center(
         child: CompassIcon(
-          icon: Icon(
-            Icons.arrow_circle_up,
-            size: 100,
-          ),
+          Icon(Icons.arrow_circle_up, size: 100),
           compassDirection: CompassDirection.southWest,
           initialDirection: CompassDirection.north,
         ),

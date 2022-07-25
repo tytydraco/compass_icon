@@ -1,3 +1,7 @@
+## 1.0.3
+
+* Use positional parameters when applicable
+
 ## 1.0.2
 
 * Follow Very Good Analysis guidelines

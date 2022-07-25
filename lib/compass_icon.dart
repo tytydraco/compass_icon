@@ -7,9 +7,9 @@ import 'package:flutter/cupertino.dart';
 class CompassIcon extends StatelessWidget {
   /// Create a new [CompassIcon] given an [icon] from an [initialDirection], and
   /// rotate it to the new [compassDirection].
-  const CompassIcon({
+  const CompassIcon(
+    this.icon, {
     super.key,
-    required this.icon,
     required this.compassDirection,
     required this.initialDirection,
   });
