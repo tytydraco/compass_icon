@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:compass_icon/src/compass_direction.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 /// Rotates the [icon] giving a [compassDirection] and an [initialDirection].
 class CompassIcon extends StatelessWidget {
