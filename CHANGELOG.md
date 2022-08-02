@@ -1,3 +1,8 @@
+## 1.0.4
+
+* Use material design
+* Proper library structure
+
 ## 1.0.3+1
 
 * Convert LICENSE to 2-Clause BSD
