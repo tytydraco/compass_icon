@@ -1,4 +1,3 @@
-import 'package:compass_icon/compass_direction.dart';
 import 'package:compass_icon/compass_icon.dart';
 import 'package:flutter/material.dart';
 

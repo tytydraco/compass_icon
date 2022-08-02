@@ -14,7 +14,6 @@ Add this package to your project: `flutter pub add compass_icon`
 ## Usage
 
 ```dart
-import 'package:compass_icon/compass_direction.dart';
 import 'package:compass_icon/compass_icon.dart';
 
 CompassIcon(
